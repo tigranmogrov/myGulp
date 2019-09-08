@@ -1,0 +1,21 @@
+h3 {
+  display: inline-block;
+
+  margin: 0 auto;
+  padding: 0;
+
+  text-align: center;
+
+  background: red;
+  @media (min-width: 600px) {
+    display: block;
+  }
+}
+h1 {
+  background: green;
+  @media (max-width: 1200px) {
+    display: block;
+
+    text-align: center;
+  }
+}

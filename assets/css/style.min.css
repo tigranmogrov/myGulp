@@ -1,0 +1,1 @@
+h3{display:inline-block;margin:0 auto;padding:0;text-align:center;background:red}h1{background:green}@media (min-width:600px){h3{display:block}}@media (max-width:1200px){h1{display:block;text-align:center}}
