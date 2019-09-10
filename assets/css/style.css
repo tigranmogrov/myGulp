@@ -1,24 +1,35 @@
-h3 {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  background: red;
+.slides {
+  background: #e60909;
+  margin-top: 100px;
+  overflow: hidden;
 }
 
-h1 {
-  background: green;
+.slide {
+  width: 100%;
+  margin: 20px;
+  -webkit-animation: slied 3s linear infinite;
+          animation: slied 3s linear infinite;
+  border: 10px dotted;
 }
 
-@media (min-width: 600px) {
-  h3 {
-    display: block;
+@-webkit-keyframes slied {
+  0% {
+    -webkit-transform: translatex(100%);
+            transform: translatex(100%);
+  }
+  100% {
+    -webkit-transform: translatex(-60px);
+            transform: translatex(-60px);
   }
 }
 
-@media (max-width: 1200px) {
-  h1 {
-    display: block;
-    text-align: center;
+@keyframes slied {
+  0% {
+    -webkit-transform: translatex(100%);
+            transform: translatex(100%);
+  }
+  100% {
+    -webkit-transform: translatex(-60px);
+            transform: translatex(-60px);
   }
 }
